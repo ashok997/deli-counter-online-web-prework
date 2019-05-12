@@ -23,7 +23,7 @@ end
 
 def now_serving(array)
   if array.size==0
-    puts "There is nobody waiting to be served"
+    puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{array[0]}."
   end
