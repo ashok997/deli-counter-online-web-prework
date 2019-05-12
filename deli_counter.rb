@@ -9,7 +9,7 @@ def line (array)
     message = "The line is currently :"
     array.each do |name|
       counter+=1
-      message << "#{counter}" << "#{message}"
+      message << "#{counter}" << "#{name}"
     end
     puts message
   end
