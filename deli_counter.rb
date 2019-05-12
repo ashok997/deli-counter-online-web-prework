@@ -6,12 +6,12 @@ def line (array)
     puts "The line is currently empty."
   else
     counter = 0
-    print "The line is currently :"
+    message = "The line is currently :"
     array.each do |name|
-      puts counter
-      puts name
       counter+=1
+      message << #{counter} << name
     end
+    puts message
   end
 end
 
